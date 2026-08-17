@@ -102,7 +102,7 @@ def build_embed(datum, mitglieder, eingefroren=False):
         title=titel,
         description=(
             f"**{datum}**\n"
-            f"Aufstellung: **21:00 Uhr**\n"
+            f"Aufstellung: **21:30 Uhr**\n"
             f"{'🔒 Abstimmung geschlossen!' if eingefroren else '✅ Jetzt abstimmen!'}"
         ),
         color=EMBED_COLOR
