@@ -364,7 +364,7 @@ async def check_zeit():
             await neue_abstimmung_posten(guild)
         await asyncio.sleep(61)
 
-    if h == 21 and m == 0 and not data.get("eingefroren", False):
+    if h == 21 and m == 30 and not data.get("eingefroren", False):
         for guild in bot.guilds:
             await abstimmung_einfrieren(guild)
         await asyncio.sleep(61)
